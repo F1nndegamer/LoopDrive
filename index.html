@@ -1,60 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LoopDrive – Wearable USB Ring</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  </head>
-  <body class="bg-gray-900 text-white font-sans">
-    <!-- Hero Section -->
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
-      <h1 class="text-5xl font-bold mb-4">LoopDrive</h1>
-      <p class="text-xl text-gray-300 max-w-xl">
-        The world’s first wearable USB flash drive — carry your data on your finger.
-      </p>
-      <div class="mt-8">
-        <a href="#learn" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-full text-lg transition">Learn More</a>
-      </div>
-    </section>
 
-    <!-- How It Works -->
-    <section id="learn" class="py-16 bg-gray-800 px-6">
-      <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h2 class="text-3xl font-semibold mb-4">How It Works</h2>
-          <p class="text-gray-300 mb-4">
-            LoopDrive is a custom-made ring embedded with real USB flash storage. When placed into the included dock,
-            it acts just like a regular USB stick — fast, secure, and portable.
-          </p>
-          <ul class="list-disc list-inside text-gray-300">
-            <li>Fully functional USB flash drive (4GB–64GB)</li>
-            <li>Custom circular connector dock</li>
-            <li>Stylish, durable, and wearable</li>
-          </ul>
-        </div>
-        <div>
-          <div class="w-full h-64 bg-gray-700 flex items-center justify-center rounded-xl">
-            <!-- Replace with real image -->
-            <span class="text-gray-500">[Concept image goes here]</span>
-          </div>
-        </div>
-      </div>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoopDrive - Wearable USB Reinvented</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!-- Call to Action -->
-    <section class="bg-gray-900 py-20 px-6 text-center">
-      <h2 class="text-4xl font-bold mb-4">Be Part of the Future</h2>
-      <p class="text-gray-400 max-w-2xl mx-auto mb-6">
-        We’re working on the first prototype and looking for support. Want to see LoopDrive become reality?
-        Join our journey or support us on Kickstarter (coming soon).
-      </p>
-      <a href="#" class="bg-blue-500 hover:bg-blue-600 px-8 py-4 text-lg rounded-full transition">Stay Updated</a>
-    </section>
+<body>
+  <header>
+    <h1>LoopDrive</h1>
+    <p class="tagline">A revolution in portable storage – on your finger.</p>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#specs">Specs</a>
+      <a href="#devlog">Dev Log</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#faq">FAQ</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 py-8 text-center text-gray-500 text-sm">
-      © 2025 LoopDrive. All rights reserved.
-    </footer>
-  </body>
+  <section class="hero">
+    <h2>Ultra-portable. Always with you.</h2>
+    <p>LoopDrive is a USB drive built into a wearable ring. No more searching for flash drives — it's right there when
+      you need it.</p>
+    <div class="mockup-placeholder">[Concept Image Placeholder]</div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <ul>
+      <li>🧲 Magnetic Dock with USB Adapter</li>
+      <li>💡 Always-accessible, worn like a ring</li>
+      <li>🔒 Secure fit with snap-lock design</li>
+      <li>⚙️ Swappable internal drive module (e.g., SanDisk Ultra Fit)</li>
+      <li>📏 Custom circular contact design (4-pin: D+, D-, VCC, GND)</li>
+    </ul>
+  </section>
+
+  <section id="specs" class="specs">
+    <h2>Technical Specifications (WIP)</h2>
+    <ul>
+      <li>Storage: 16GB / 32GB / 64GB modules supported</li>
+      <li>Connector: 4-contact ring, USB 2.0 compliant</li>
+      <li>Materials: Aluminum, Resin (3D printed)</li>
+      <li>Form Factor: Circular Ring w/ Adapter Dock</li>
+    </ul>
+  </section>
+
+  <section id="devlog" class="devlog">
+    <h2>Developer Log</h2>
+    <div class="entry">
+      <h3>[2025-05-31] Macro pad and LoopDrive prototype planning</h3>
+      <p>Started experimenting with SanDisk Ultra Fit for internal storage. Planning connector contacts and fit.</p>
+    </div>
+    <div class="entry">
+      <h3>[Future Update]</h3>
+      <p>Testing connector wear resistance and magnetic strength. Designing adapter base for docking.</p>
+    </div>
+  </section>
+
+  <section id="roadmap" class="roadmap">
+    <h2>Roadmap</h2>
+    <ol>
+      <li>🧠 Phase 1 – Idea, Research & Planning (✓)</li>
+      <li>🔧 Phase 2 – Early Prototypes + 3D Prints (in progress)</li>
+      <li>⚡ Phase 3 – Circuit & Connector Finalization</li>
+      <li>🚀 Phase 4 – Testing + Kickstarter Launch</li>
+      <li>📦 Phase 5 – Manufacturing & Distribution</li>
+    </ol>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>Q: Will it work with any USB port?</strong></p>
+    <p>A: Yes, once docked into its adapter, it's a standard USB-A device.</p>
+
+    <p><strong>Q: Can I swap out the storage?</strong></p>
+    <p>A: The internal flash module is replaceable — more sizes coming soon.</p>
+
+    <p><strong>Q: Will there be color options?</strong></p>
+    <p>A: Likely! We’re testing different filament materials.</p>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About the Creator</h2>
+    <p>LoopDrive is designed by F1nn — a developer and maker with a passion for minimal, accessible tech. What started
+      as a sketch became a product you can wear. This site is a work in progress, just like the device.</p>
+  </section>
+
+  <section class="newsletter">
+    <h2>Stay in the Loop</h2>
+    <p>Get updates as LoopDrive develops! (Sign-up form coming soon)</p>
+  </section>
+
+  <section class="community">
+    <h2>Shoutouts & Support</h2>
+    <p>Special thanks to early testers, friends, and everyone cheering this on ❤️</p>
+  </section>
+
+  <section class="press">
+    <h2>Press & Contact</h2>
+    <p>Press inquiries or partnerships? Email <strong>f1nndevgamer@</strong>[domain].com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 LoopDrive by F1nn. Built with love, solder, and a 3D printer.</p>
+  </footer>
+</body>
+
 </html>
